@@ -7,6 +7,12 @@ if status is-interactive
     function starship_transient_prompt_func
         starship module character
     end
+# catnap (uncomment if catnap is installed)
+# alias --save debloat='paccache -rk0'
+# alias --save gut='sudo pacman -Rns $(pacman -Qdtq)'
+# alias --save uvc='uv clean cache --force'
+# alias --save cachelean='rm -rf ~/.cache/*'
+# alias --save temp-cleaner='sudo rm -rf /tmp/*'
     if test "$TERM" != "linux"
         starship init fish | source
         enable_transience
