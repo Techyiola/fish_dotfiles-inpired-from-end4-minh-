@@ -30,14 +30,11 @@ end
 ```bash
 git clone https://github.com/Techyiola/fish_dotfiles-inpired-from-end4-minh-.git
 cd fish_dotfiles-inpired-from-end4-minh-
-chmod +x fish-dotfiles.sh
-./fish-dotfiles.sh
+chmod +x install.sh
+./install.sh
 ```
 
-The script will:
-1. Create `~/.config/fish` if it doesn't exist
-2. Copy all config files into place
-3. Push any changes back to GitHub
+That's it. No GitHub account needed, no tokens, nothing.
 
 ## Credits
 
