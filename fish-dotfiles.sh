@@ -15,7 +15,7 @@ for f in "${FILES[@]}"; do
 done
 
 # 3. Push to GitHub
-cd "$HOME/Projects/fish_dotfiles"
+cd "$DOTFILES"
 
 if [ ! -d ".git" ]; then
     git init
