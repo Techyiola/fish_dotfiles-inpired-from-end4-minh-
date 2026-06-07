@@ -21,7 +21,8 @@ if [ ! -d ".git" ]; then
     git init
     git branch -M main
     read -rp "GitHub remote URL: " url
-    git remote add origin "$url"
+#    git remote add origin "$
+    git remote add origin "$(echo "$url" | sed 's|https://github.com/|git@github.com:|')"
 fi
 
 git add .
