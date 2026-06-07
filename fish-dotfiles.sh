@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-DOTFILES="$HOME/Projects/fish_dotfiles"
+# DOTFILES="$HOME/Projects/fish_dotfiles"
+DOTFILES="$(dirname "$(realpath "$0")")"
 FISH_DIR="$HOME/.config/fish"
 FILES=("config.fish" "fish_variables" "auto-Hypr.fish")
 
