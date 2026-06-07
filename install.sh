@@ -13,4 +13,3 @@ for f in "${FILES[@]}"; do
 done
 
 echo "Done! Restart fish or run: source ~/.config/fish/config.fish"
-EOF
